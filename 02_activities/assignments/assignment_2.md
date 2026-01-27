@@ -12,16 +12,24 @@
       ```
       Your answer...
 
+Example one: https://public.tableau.com/app/profile/peiyun.shen/viz/Dishwashvs_Handwash/Dashboard1
+
+This is the more "good" example. The title “Dishwasher Water Usage in Context” clearly states the intent. The subtitle “Daily Common Water Usage Types” frames the comparison.Viewers immediately understand the question being answered, that how much water does a dishwasher use compared to other daily activities. It uses a bar chart, which is ideal for comparing discrete categories and showing absolute quantities. The colour use is good. Neutral grey bars for most categories, green for dishwasher with positive environmental association and orange for handwashing for contrast for comparison. All labels clean.
 
 
+Example two: https://public.tableau.com/app/profile/peiyun.shen/viz/dataIQ100USA2023/DataIQUSA2023
 
+This is the more "bad" example. This visualization tries to do too many things at once, especially the addition of Summary statistics top industries, that graph takes a bit more time to be interpreted. From a cognitive load perspective the viewer must constantly shift attention between different visual encodings map, bars, table, icons, photos. The audience must decide where to look first with no guidance.
 
+It is not obvious what question this visualization is answering. Is it about geographic distribution, industry dominance? Company revenue tiers? Or individual rankings? The visualization lacks a clear intended purpose, feels like trying to present everything possible.
+
+Also, it is a bit misleading in the use of geographic maps. The bubble map implies spatial meaning, but the data appears to be counts of individuals, not geographically continuous phenomena. States differ massively in area, but area is visually irrelevant to the data.
 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      First, define a single primary question. For example, which industries and revenue tiers dominate? or, How concentrated are top individuals by state? Then, keep one main visualization. Instead of one dense dashboard, break the content into 2–3 simpler figures, each with a clear title: Geographic distribution, and Industry and revenue distribution, and Individual rankings. I would also remove decorative elements that do not encode data, like the medals decorations. It would be better to represent counts using one consistent encoding, like position the people on a common scale bars or dots, use the same color scale and ordering across all charts.
 
 
 
