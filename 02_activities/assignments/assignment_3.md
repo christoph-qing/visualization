@@ -2,28 +2,43 @@
 
 ## Assignment 3: Final Project
 
+Data source:
+https://data.ontario.ca/dataset/vital-events-data-by-month/resource/97622ce6-c06a-4970-afe5-be540c748f24
+
+
 ### Requirements:
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+
+
     > What software did you use to create your data visualization?
+    I used Python
 
     > Who is your intended audience? 
+    Students, researchers, and general audience
     
     > What information or message are you trying to convey with your visualization? 
+    First is to highlight seasonal and yearly patterns in events. And then compare the relative magnitudes of the three events births vs deaths.
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
+    I chose clear line colors and labels in Python to differentiate each event for clarity. Added rotated x-axis labels, readable fonts, and a figure size that prevents crowding.Used consistent time scales across plots so trends are directly comparable.
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    Python is reproducible, as the script can be rerun on the same dataset to generate identical plots.
+
     > How did you ensure that your data visualization is accessible?  
+    I used high-contrast colors for readability.
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+    Families and communities could benefit from insights into birth or death trends for planning purposes.
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    I excluded stillborns because I included them first but then realized that the magnitude is so small so it's better to use another excel chart to talk about it specifically.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Cleaning and formatting the data by mapping month names in English/French to numbers. Creating a proper datetime column and setting it as the index.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
